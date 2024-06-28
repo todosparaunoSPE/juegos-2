@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Ahorro e Inversión</title>
+    <!-- Asegúrate de incluir FileSaver.js en tu proyecto -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+<body>
+
+<center><!-- Imagen insertada aquí -->
+    <img src="logo1.jpg" alt="Descripción de la imagen" style="display: block; margin: 20px auto; max-width: 30%; height: auto;">
+    </center>
+
+
+<nav>
+    <a id="ahorro-link" href="#">Juego de Ahorro</a> | 
+    <a id="inversion-link" href="#">Juego de Inversión</a>
+</nav>
+
+<div id="game" style="display: none;">
+    <h1>Juego de Ahorro e Inversión</h1>
+    <div id="question"></div>
+    <div id="options"></div>
+    <div id="status"></div>
+</div>
+
+<div id="userDataForm" style="display: none;">
+    <h2>¡Juego terminado!</h2>
+    <form id="userData">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+        
+        <button type="submit">Guardar Datos</button>
+    </form>
+</div>
+
+<!-- Aquí se incluye el script.js -->
+<script src="script.js"></script>
+
+</body>
+</html>
