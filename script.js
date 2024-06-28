@@ -219,7 +219,7 @@ function mostrarFormularioDatos() {
         // Autenticación y configuración de la API de GitHub
         const token = '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'; // Reemplaza con tu token de acceso a GitHub
         const owner = 'todosparaunoSPE';
-        const repo = 'juegos-1';
+        const repo = 'juegos-2';
         const path = 'datos_usuario.txt';
 
         const apiUrl = 'https://api.github.com/repos/${owner}/${repo}/contents/${path}';
